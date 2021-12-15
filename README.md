@@ -11,8 +11,11 @@ To deploy this environment you will need to have the following:
 4. Terraform installed.
 
 [install awscli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+
 [create an IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)
+
 [configure awscli](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
+
 [install terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 
 
