@@ -10,7 +10,7 @@ Make sure you create a s3 bucket and update the **main.tf** file with the correc
 
 ## Deploy Environment
 
-Clone this repository and navigate to the root folder.
+Clone this repository and navigate to its folder.
 
 Run ```terraform init``` to initialize terraform and download the modules.
 
