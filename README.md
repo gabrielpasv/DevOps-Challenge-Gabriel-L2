@@ -44,7 +44,7 @@ vpc_id = "vpc-0102e3ec2f98c1fbd"
 aws eks update-kubeconfig --name <cluster-name>
 ```
 
-Deploy a nginx pod to make sure it's working. Make sure you have kubectl installed.
+Deploy a nginx pod to make sure it's working. Make sure you have **kubectl** installed.
 ```
 gabriel@gabriel-Inspiron:~/challenges/DevOps-Challenge-Gabriel-L2$ kubectl run nginx --image=nginx --restart=Never
 pod/nginx created
