@@ -25,7 +25,8 @@ To deploy this environment you will need to have the following:
 Make sure you create a s3 bucket and update the **main.tf** file with the correct bucket name.
 
 [create a S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html)
-Change **main.tf** to contain the bucket you created. Line 3.
+
+Then, change **main.tf** to contain the bucket you created. Line 3.
 
 Clone this repository and navigate to its folder.
 
