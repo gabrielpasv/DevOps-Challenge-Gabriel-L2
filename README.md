@@ -58,6 +58,9 @@ vpc_id = "vpc-0102e3ec2f98c1fbd"
 
 
 ## Login to the cluster to test
+
+Run the following command on your terminal to set the kubernetes cluster context.
+
 ```
 aws eks update-kubeconfig --name <cluster-name>
 ```
