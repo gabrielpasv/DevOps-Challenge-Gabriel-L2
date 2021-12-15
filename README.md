@@ -3,12 +3,26 @@
 
 ## Requirements
 
-To deploy this environment you need to have an AWS account and be able to access it via aws cli.
-Terraform also should be installed on your system.
+To deploy this environment you will need to have the following:
+
+1. An aws account.
+2. An IAM user with administratorAccess permissions or a more refined level of permissions accessing VPC, EC2, EKS. 
+3. An awscli installed and configured.
+4. Terraform installed.
+
+[install awscli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+[create an IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)
+[configure awscli](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
+[install terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
+
+
+## Deploy Environment
+
 
 Make sure you create a s3 bucket and update the **main.tf** file with the correct bucket name.
 
-## Deploy Environment
+[create a S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html)
+Change **main.tf** to contain the bucket you created. Line 3.
 
 Clone this repository and navigate to its folder.
 
