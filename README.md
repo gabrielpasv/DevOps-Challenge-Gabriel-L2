@@ -1,6 +1,10 @@
 
 # Plan A DevOps Challenge 2 - Resolution
 
+This is the resolution of the Plan A challenge 2 located [here](https://github.com/Plan-A-Technologies/DevOps-Challenge-Level-2)
+
+
+
 ## Requirements
 
 To deploy this environment you will need to have the following:
